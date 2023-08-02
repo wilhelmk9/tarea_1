@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tarea 1</title>
+  <style>
+    /* Estilo para la imagen */
+    img {
+      /* Ancho máximo de la imagen, ajusta el valor según lo desees */
+      max-width: 50px;
+      /* Centrar horizontalmente la imagen en el contenedor */
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Estilo para el menú de navegación */
+    nav {
+      /* Centrar horizontalmente el menú de navegación */
+      text-align: center;
+    }
+
+    /* Estilo para centrar la tabla */
+    .center-table {
+      margin: auto; /* Centrar horizontalmente la tabla */
+    }
+ 
+
+    .social-container {
+        text-align: center;  /* centrar los iconos */
+    }
+    
+    .social-link {
+        display: inline-block;
+        margin-right: 10px; /* Agrega un margen derecho para separar las imágenes */
+    }
+
+    .seccion-con-fondo {
+        background-color: #edfbfc; /* Cambia esto al color deseado */
+        padding: 20px; /* Añade un espacio interno para que el contenido no esté pegado al borde */
+    }
+
+
+
+
+ </style>
+
+</head>
+<body>
+  
+  <div class="seccion-con-fondo">
+<!-- Contenedor que envuelve la imagen y el menú de navegación -->
+<div class="contenedor">
+  <!-- Imagen centrada y más pequeña -->
+  <img src="imagenes/descargar.png" alt="usuario">
+
+  <!-- Título centrado -->
+  <h1 style="text-align: center;">Hugo Ubedo</h1>
+
+  <nav> <!-- Menú tipo Navegador -->
+    <p>
+      <!-- Enlaces de navegación -->
+      <a href="inicio.html">INICIO</a> |
+      <a href="php.html">PHP</a> |
+      <a href="dotnet.html">.NET</a> |
+      <a href="java.html">JAVA</a> |
+    </p>
+  </nav>
+
+  <hr width="100%" color="green">
+
+  <h1>Lenguajes De Programacion</h1>
+  <form id="formulario">
+    <!-- Campos del formulario (mantenidos sin cambios) -->
+
+    <ol type="1" start="1"> <!-- LISTA ORDENADA -->
+      <li>Paginas Web
+        <ul type="circle">  <!-- LISTA Desordenada  -->
+          <li>Jsp</li>
+          <li>Aspx</li>
+          <li>Php</li>
+        </ul>
+      </li>
+
+      <li>Aplicaciones
+        <ul type="circle">  <!-- LISTA Desordenada  -->
+          <li>Java</li>
+          <li>Visual Basic</li>
+          <li>C#</li>
+        </ul>
+      </li>
+    </ol>
+  </form>
+
+  <!-- Tabla más grande y centrada -->
+  <p></p>
+  <table border="1px" class="center-table" width="40%"> <!-- Aplicar estilo "center-table" y establecer ancho al 70% -->
+    <tr><td colspan="3" style="text-align: center;">Programación Web</td></tr> <!-- Centrar el texto "Programación Web" -->
+    <tr><td width="10%">Asp</td><td width="10%">Jsp</td></tr> <!-- Establecer ancho de la primera y segunda columna -->
+    <tr><td>Php</td><td>Ruby</td></tr>
+    <tr><td>Python</td><td>Go</td></tr>
+  </table>
+  <p></p>
+</label><br>
+
+  <table style="width: 100%;">
+    <tr>
+      <td align="center" valign="middle">    
+        <!-- Formulario -->
+        <form id="formulario2">
+          <!-- Campo de nombres -->
+          <!-- <label for="nombres">Nombres: -->
+            <input type="text" id="nombres" name="nombres" required placeholder="Ingrese nombres" style="width: 400px; height: 40px;">
+           </label><br> 
+          </label><br>
+
+          <!-- Campo de apellidos -->
+          <!-- <label for="apellidos">Apellidos: -->
+          <input type="text" id="apellidos" name="apellidos" required placeholder="Ingrese apellidos" style="width: 400px; height: 40px;">
+         </label><br> 
+        </label><br>
+
+          <!-- Campo de número telefónico -->
+          <!-- <label for="telefono">Número telefónico: -->
+          <input type="tel" id="telefono" name="telefono" required placeholder="Ingrese número telefónico" style= "width: 400px; height: 40px;">
+         </label><br> 
+        </label><br>
+
+          <!-- Campo de correo electrónico -->
+          <!-- <label for="email">Correo electrónico: -->
+          <input type="email" id="email" name="email" required placeholder="Ingrese correo electrónico" style= "width: 400px; height: 40px;">
+         </label><br> 
+        </label><br>
+
+          <!-- Campo de fecha de nacimiento -->
+          <!-- <label for="fecha_nacimiento">Fecha de nacimiento: -->
+          <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required style= "width: 404px; height: 40px;">
+           </label><br> 
+          </label><br>
+
+          <!-- Campo de mensaje -->
+          <!-- <label for="mensaje">Mensaje:<br> -->
+          <textarea id="mensaje" name="mensaje" rows="5" cols="60" required placeholder="Escriba su mensaje"></textarea>
+           </label><br> 
+          </label><br>
+
+          <!-- Botón para enviar el formulario -->
+          <button type="button" onclick="mostrarDatos()" style="font-size: 18px; padding: 10px 20px; background-color: #007bff; color: #fff;">Enviar</button>
+
+        </form>
+      </td>
+    </tr>
+  </table>
+
+
+
+  <h1 class="social-container">Redes Sociales</h1>
+  <div class="social-container">
+      <a href="#" class="social-link"><img src="Imagenes/facebook.png" alt="Facebook"></a>
+      <a href="#" class="social-link"><img src="Imagenes/twitter.png" alt="Twitter"></a>
+  </div>
+
+
+
+</div>
+
+<!-- Script para el código JavaScript (mantenido sin cambios) -->
+<script src="app.js"></script>
+</body>
+</html>
